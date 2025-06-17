@@ -49,7 +49,4 @@ Make sure to include `FastMM5.pas` in your project if you're building from sourc
 ## License
 
 This project is licensed under the MIT License – feel free to use, modify, and distribute it.
-
----
-
-Developed with simplicity and extensibility in mind. Contributions are welcome!
+ 
