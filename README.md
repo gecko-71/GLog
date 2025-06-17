@@ -1,15 +1,15 @@
-# 📘 GLog – Simple Logging System for Delphi
+# GLog – Simple Logging System for Delphi
 
 **GLog** is a lightweight logging library for Delphi applications. It provides basic yet flexible functionality to log messages to files and/or console, supporting different severity levels.
 
-## 🧩 Project Structure
+## Project Structure
 
 - **`GLog.pas`** – Core unit implementing the logging functionality.
 - **`LogTest.dpr`** – Basic example of how to use the logging system.
 - **`LogTest2.dpr`** – Example demonstrating usage of different log levels (`info`, `warning`, `error`).
 - **`LogTest3.dpr`** – Demonstration of file and console logging.
 
-## ✅ Features
+## Features
 
 - Multiple log levels: INFO, WARNING, ERROR
 - Log to file and/or console
@@ -17,7 +17,7 @@
 - Enable or disable logging as needed
 - Simple integration into existing Delphi projects
 
-## 🚀 Quick Start
+## Quick Start
 
 ```pascal
 uses GLog;
@@ -33,18 +33,18 @@ begin
 end.
 ```
 
-## 🧠 Memory Management
+## Memory Management
 
 This project uses [FastMM5](https://github.com/pleriche/FastMM5) – a fast replacement memory manager for Delphi. It improves performance and memory debugging capabilities.
 
 Make sure to include `FastMM5.pas` in your project if you're building from source.
 
-## 🔧 Requirements
+## Requirements
 
 - FastMM5 memory manager
 - No other external dependencies
 
-## 📂 License
+## License
 
 This project is licensed under the MIT License – feel free to use, modify, and distribute it.
 
