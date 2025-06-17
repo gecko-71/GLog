@@ -1,4 +1,4 @@
-# 📘 GLog – Simple Logging System for Delphi
+# GLog – Simple Logging System for Delphi
 
 **GLog** is a lightweight logging library for Delphi applications. It provides basic yet flexible functionality to log messages to files and/or console, supporting different severity levels.
 
