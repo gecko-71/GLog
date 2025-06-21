@@ -22,16 +22,12 @@
 ## Quick Start
 
 ```pascal
-uses GLog;
-
+uses
+  GLog;
 begin
-  LogToConsole := True;
-  LogToFile := True;
-  LogFileName := 'mylog.txt';
-
-  LogInfo('Application started.');
-  LogWarning('This is a warning.');
-  LogError('An error occurred.');
+  WriteInfoLogLn('Application started.');
+  WriteWarningLogLn('This is a warning.');
+  WriteErrorLogLn('An error occurred.');
 end.
 ```
 
